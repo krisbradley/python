@@ -1,0 +1,10 @@
+def print_missing(numbers):
+    n = numbers[0]
+    i = 0
+    while i < len(numbers) :
+        if n !=  numbers[i] :
+            print(n)
+        else :
+            i+=1
+        n+=1
+print_missing([1,4,6,8,18,20])
