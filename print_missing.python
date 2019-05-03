@@ -7,4 +7,4 @@ def print_missing(numbers):
         else :
             i+=1
         n+=1
-print_missing([1,4,6,8,18,20])
+print_missing([1,4,6,8,18,20,33])
